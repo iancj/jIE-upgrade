@@ -1,0 +1,52 @@
+* {
+    margin:0;
+    padding:0;
+}
+.IEW_info{
+	padding-top:15px;
+	font-size:20px;
+	font-weight:bold;
+}
+#IEWraning {
+    position: absolute;
+    top:0;
+    left:0;
+    padding:10px 0;
+    width:100%;
+    background:#368ee0;
+    z-index:9999999;
+    text-align:center;
+    font:normal 14px/100% "microsoft yahei";
+}
+.IEW_info,
+#IEWClose,
+.IEW_links a {
+    color:#fff;
+}
+
+.IEW_links a{
+	margin-right:20px;
+	font-size:16px;
+}
+
+#IEWraning a:hover {
+    color:orange
+}
+.IEW_links {
+    padding:30px 0;
+}
+#IEWClose{
+	position:absolute;
+	right:40px;
+	top:50px;
+	display:block;
+	width:30px;
+	height:30px;
+	text-align:center;
+	border:1px solid #fff;
+    text-decoration:none;
+	font:normal 30px/30px "arial";
+}
+#IEWClose:hover{
+	border-color:orange;
+}
